@@ -1,0 +1,7 @@
+﻿<h1>People List</h1>
+<ul>
+     @foreach (var item in ViewBag.PeopleGet)
+     {
+         <li>Name:@item.FirstName @item.LastName Email:@item.EmailAddress</li>
+     }
+</ul>
